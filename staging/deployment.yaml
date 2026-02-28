@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: microservice-app
-        image: 075008446817.dkr.ecr.ap-south-1.amazonaws.com/microservice-app:7
+        image: 075008446817.dkr.ecr.ap-south-1.amazonaws.com/microservice-app:19
         ports:
         - containerPort: 3000
         readinessProbe:
